@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 65, 65);
+}
+h1 {
+    background-color: rgb(202, 202, 202);
+    width: 400px;
+    text-align: center;
+    padding: 12px;
+    margin: 20px auto;
+}
+li {
+    width: 300px;
+    margin: auto;
+    list-style-position: inside;
+}
+
+.recipes {
+    text-align: center;
+    padding: 0px;
+}
+    .recipes.chicken-enchiladas {
+        background-color: orange;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    .recipes .spaghetti-carbonara {
+        background-color: rgb(255, 101, 29);
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    .recipes .maple-salmon {
+        background-color: rgb(226, 65, 44);
+        padding: 8px;
+    }
